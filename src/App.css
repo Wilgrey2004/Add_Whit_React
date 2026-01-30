@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+.layout-primary {
+  @apply bg-slate-800;
+}
+
+.layout-fond-color {
+  @apply text-white;
+}
+
+.button-menu-active {
+  @apply bg-slate-900 text-white;
+}
+
+.button-menu-hover {
+  @apply text-slate-200 hover:bg-slate-600;
+}
