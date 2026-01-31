@@ -15,9 +15,16 @@ const Menu = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <span className="layout-fond-color font-bold text-lg">
-            Default app
-          </span>
+          <div className="flex">
+            <span className="layout-fond-color font-bold text-lg">
+              Default app
+            </span>
+            <img
+              src="/Images/logo.png"
+              alt="Logo"
+              className="hidden md:block h-8 w-8"
+            />
+          </div>
 
           {/* Botón mobile */}
           <button

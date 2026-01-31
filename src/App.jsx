@@ -7,9 +7,11 @@ function App() {
   return (
     <>
       <Menu />
-      <div className="min-h-screen pt-4 pb-8 px-4">
+
+      <div className="primary-layout-display bg-color-primary">
         <AppRoutes />
       </div>
+
       <Footer />
     </>
   );
